@@ -35,7 +35,7 @@ let usersMother = prompt('What is your Mothers first name? ')
 let usersStreet = prompt('What is the name of the street you grew up on? ')
 let usersColour = prompt('What was your favourite colour as a child? ')
 let usersAge = prompt('What is your current Age? ')
-let randomNumber = prompt('Choose a number between 1 and 10 ')
+let randomNumber = prompt('Choose a number between 1 and 10: ')
 
 // Do some calculations
 let yearsMarry = Math.round(usersAge / randomNumber)

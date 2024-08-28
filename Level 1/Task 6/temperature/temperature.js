@@ -93,6 +93,7 @@ else if (conversionType === 'K' && conversionTo === 'F') {
     alert(calculatedFahrenheit)
 }
 
+// Create error message in case of missed cases
 else {
     alert('You entered incorrect details')
 }

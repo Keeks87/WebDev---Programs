@@ -7,4 +7,15 @@ of a palindrome is the word “racecar”.
 a palindrome”
 */
 
-// 
+// Opening message for user.
+alert('This program check for Palindromes. ')
+
+// Asks the user to enter a word
+let userWord = prompt('Please enter a word to check: ')
+
+// Split the string
+let userWordArray = userWord.split()
+
+let userWordReverse = userWordArray.reverse()
+console.log(userWord)
+console.log(userWordReverse)

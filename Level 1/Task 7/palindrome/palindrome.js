@@ -8,14 +8,17 @@ a palindrome”
 */
 
 // Opening message for user.
-alert('This program check for Palindromes. ')
+alert('This program checks for Palindromes. ')
 
 // Asks the user to enter a word
 let userWord = prompt('Please enter a word to check: ')
 
 // Split the string
-let userWordArray = userWord.split()
+let userWordArray = userWord.split('')
 
-let userWordReverse = userWordArray.reverse()
-console.log(userWord)
-console.log(userWordReverse)
+// 
+let userWordReverse = userWordArray.reverse().join('')
+while (userWord === userWordReverse) {
+    console.log(`${userWord} is a palindrome`);
+    break;
+}

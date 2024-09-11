@@ -10,6 +10,7 @@ the -1.
 let userNumber = prompt('Please enter a number or -1 to exit: ')
 let counterVariable = 0;
 
+// Check user's input
 while (userNumber != -1) {
     let userNumber = prompt('Please enter a number or -1 to exit: ')
     totalNumbers += userNumber
@@ -17,4 +18,3 @@ while (userNumber != -1) {
     console.log(totalNumbers)
     console.log(totalCount)
 }
-
